@@ -4,6 +4,8 @@ The module challenge is the afternoon project or assignment that students work t
 
 ## User Interface and Git
 
+## User Interface II
+
 ## Objectives
 
 - implement a CSS reset and understand why it’s important for cross-browser development
@@ -40,12 +42,6 @@ Once your repository is set up, practice what you learned today to create a port
 - [ ]  A `My Projects` button that links to the projects page
 - [ ]  A `Contact Me` button that links to the contact page
 - [ ]  Links to any social media profiles (Instagram, linkedIn, Twitter) into the footer section of your home page
-
-### Task 2b: Exit Ticket
-
-Once you begin, you will have 15 minutes to answer the questions [here](https://app.codesignal.com/public-test/W7cjgvDN6BnmcCAJN/deNjYNsatrYjaN).
-
-The completion of these questions is mandatory for MVP. However, passing the quiz doesn't affect your standing as a Lambda School student whatsoever. This is Lambda School testing itself! Please answer honestly and to the best of your ability *without* using external references.
 
 ### Task 3: Stretch Goals
 

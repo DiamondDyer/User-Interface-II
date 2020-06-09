@@ -1,1 +1,307 @@
 /* Add CSS styling here */
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline; 
+max-width: 100%; 
+}
+*{
+    box-sizing: border-box
+}
+body { font-size:62.5%; } 
+header nav{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    
+}
+header h1{
+    font-family:'orbitron';
+    font-size: 5rem;
+    color: #884dc3;
+    padding-left: 2.2rem;
+    padding-top: 1.1rem;
+    
+}
+
+.links{
+    width:30%;
+    display:flex;
+    justify-content: flex-end;
+    
+    margin:2%
+    
+   
+   
+    
+}
+
+nav a {
+  /*display: block;*/
+    padding: 1rem;
+    text-align: center;
+    font-family: 'orbitron';
+    text-decoration: none;
+    color:white;
+    background-color: #111;
+    border-right: 0.0625rem solid #bbb;
+    font-size: 1.5rem;
+    
+  }
+  
+  nav a:hover {
+    background-color: #884dc3;
+  }
+  .centerImageContainer{
+    text-align: center;
+    position: relative;
+    color: black;
+    padding:2rem;
+
+  }
+  .myName {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family:'Press start 2P';
+    font-size: 4.3rem;
+  }
+  .centerImageContainer img{
+      width:103.1rem;
+      height: auto;
+      
+      
+  }
+  .myProjects a{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color:black;
+    color: rgb(221, 221, 221);
+    font-size: 2rem;
+    font-family: 'orbitron';
+    text-decoration: none;
+    padding: .75rem 1.5rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.3125rem;
+  }
+  .myProjects a:hover{
+    background-color:#884dc3;
+  }
+
+  .gallery{
+      display:flex;
+      flex-wrap: wrap;
+      margin:3.125rem;
+      text-align: center;
+      font-family: 'orbitron';
+      justify-content: space-between;  
+  }
+
+  .gallery p{
+    font-size:1rem;
+  }
+ .gallery img{
+    width: 100%;
+    padding: 1.25rem;  
+ }
+
+ footer{
+     background-color: #111;
+     height:auto;
+     text-align:center;
+     
+     width:100%;
+ }
+ footer div{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    }
+    
+    
+ footer a{
+   text-align:center;
+    background-color:white;
+    color: #884dc3;
+    font-size: 1rem;
+    font-family: 'orbitron';
+    text-decoration: none;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.3125rem;
+    margin:3.75rem;
+ }
+ footer a:hover {
+    color:black;
+    background-color:#884dc3;
+  }
+  .fa {
+    padding: 1rem;
+    font-size: 3.125rem;
+    width:auto;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  .contactMe a{
+    font-size:1.3rem;
+  }
+  footer nav .fa{
+    font-size:2rem;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+    
+  }
+  /*media queries*/
+
+ 
+
+@media(max-width: 800px){
+  header nav{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width:100%; 
+    
+  }
+
+  header .links{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width:100%;
+  
+  }
+
+   nav a{
+    padding: 1rem;
+    text-align: center;
+    font-family: 'orbitron';
+    text-decoration: none;
+    color:white;
+    background-color: #111;
+    border: 0.0625rem solid #bbb;
+    font-size: 1.5rem;
+    width:45%;
+   
+
+  }
+  header h1{
+    margin: 0;
+    padding-left:0;
+    padding-top:0;
+    text-align:center;
+    font-size: 5rem;
+  }
+  header nav a{
+    font-size:1.5rem;
+  }
+  .links{
+    width:auto;
+  }
+  .myName {
+    font-size: 3.5rem;
+  }
+  .gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:100%;
+    padding:0;
+    margin:0;
+   
+    
+  }
+
+  .gallery div{
+    width:50%;
+  }
+
+  .gallery img{
+    width:100%;
+  }
+  .gallery p{
+    font-size:1.5rem;
+    padding-bottom: 8%;
+  }
+  .contactMe a{
+    font-size:2rem;
+  }
+  footer nav .fa{
+    font-size:2rem;
+  }
+
+
+  
+}
+@media(max-width: 500px){
+  header nav{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    
+  }
+
+  .name h1{
+    margin: 0;
+    padding-left:0;
+    padding-top:0;
+    text-align:center;
+    font-size: 3.5rem;
+    
+  }
+  .myProjects a{
+    font-size: 1.5rem;
+  }
+  .links a{
+    font-size: 1.5rem;
+    
+  }
+  .links{
+    width:auto;
+  }
+  .gallery p{
+    font-size:1.25rem;
+  }
+.gallery{
+  margin-bottom: 5%;
+}
+  .myName {
+    font-size: 2rem;
+  }
+    
+  footer a{
+    margin: 3.1rem;
+  }
+  .contactMe a{
+    font-size:1.5rem;
+  }
+  footer nav .fa{
+    font-size:1.5rem;
+  }
+
+
+}
